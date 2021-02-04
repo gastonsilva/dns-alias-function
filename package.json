@@ -1,0 +1,12 @@
+{
+    "name": "dns-alias-updater",
+    "version": "0.0.1",
+    "dependencies": {
+        "@google-cloud/dns": "^2.1.0",
+        "@google-cloud/functions-framework": "^1.7.1",
+        "@google-cloud/storage": "^5.7.3"
+    },
+    "scripts": {
+        "start": "functions-framework --target=updateRecords"
+    }
+}
